@@ -4,6 +4,13 @@
   "description": "a simple way to dim webpages, including video",
   "version": "1.0.0",
 
+  "icons": {
+    "32": "/icon.svg",
+    "48": "/icon.svg",
+    "64": "/icon.svg",
+    "96": "/icon.svg"
+  },
+
   "content_scripts": [{
     "matches": [ "<all_urls>" ],
     "js": [ "/content_script.js" ]
